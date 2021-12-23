@@ -1,8 +1,7 @@
 {
   "scripts": {
     "build": "vite build && vite build --ssr",
-    "vercel-build": "./vercel/deploy.sh",
-    "// For increased dev speed we use an Express.js dev server instead of `vercel dev`": "",
+    "vercel": "./vercel/deploy.sh",
     "dev": "node ./dev-server"
   },
   "dependencies": {
