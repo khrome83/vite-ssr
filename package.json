@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "vite build && vite build --ssr",
-    "vercel": "./vercel/deploy.sh",
+    "vercel-build": "./vercel/deploy.sh",
     "dev": "node ./dev-server"
   },
   "dependencies": {
